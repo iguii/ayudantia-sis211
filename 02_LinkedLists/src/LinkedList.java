@@ -1,4 +1,7 @@
-// <T> es un generic, indica que esta clase puede ser de cualquier tipo.
+/**
+ * Clase LinkedList que contiene los metodos para crear una lista enlazada.
+ * @param <T> es el tipo de dato que va a contener la lista.
+ */
 public class LinkedList<T> {
     Node head; // Creamos un nodo "head" que apunta al primer elemento de la lista.
 
