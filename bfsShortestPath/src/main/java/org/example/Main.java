@@ -19,6 +19,7 @@ public class Main {
 
         int startX = 0, startY = 0; //posicion inicial (donde se encuentra la S)
 
+        // movimientos en norte, sur, este, oeste
         int[] dx = {-1, +1, 0 ,0}; // vector de movimientos en x
         int[] dy = {0, 0, +1, -1}; // vector de movimientos en y
 
